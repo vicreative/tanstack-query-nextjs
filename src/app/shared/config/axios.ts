@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { getStoredAuthToken } from '@app/utils/auth';
+import { getStoredAuthToken } from '@app/shared/utils/auth';
 
 // create a new axios instance
 export const instance = axios.create({

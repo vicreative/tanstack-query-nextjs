@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
-import api from '@app/services/api';
-import e from '@app/constants/endpoints';
+import api from '@app/shared/services/api';
+import e from '@app/shared/constants/endpoints';
 
 async function fetchUsers() {
   const data = await api.get(e.USERS);

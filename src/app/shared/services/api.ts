@@ -1,4 +1,4 @@
-import { instance as axios } from '@app/config/axios';
+import { instance as axios } from '@app/shared/config/axios';
 import { handleResponse, handleError } from './response';
 
 const get = (resource: string) => {
