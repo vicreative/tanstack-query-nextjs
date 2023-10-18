@@ -1,4 +1,4 @@
-import { TOKEN_IDENTIFIER } from '@app/shared/constants/strings';
+import { TOKEN_IDENTIFIER } from '@constants/strings';
 
 export const storeAuthToken = (token: string) =>
   localStorage.setItem(TOKEN_IDENTIFIER, token);

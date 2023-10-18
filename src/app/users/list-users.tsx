@@ -1,9 +1,9 @@
 'use client';
 
+import { useUsers } from '@hooks/queries/useUser';
+import { User } from '@types';
 import Image from 'next/image';
 import React from 'react';
-import { useUsers } from '@app/shared/hooks/queries/useUser';
-import { User } from '@app/shared/types';
 
 export default function ListUsers() {
   const [count, setCount] = React.useState(0);
