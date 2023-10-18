@@ -1,24 +1,25 @@
-# tanstack-query-nextjs
+# Nextjs + Tailwind CSS + TypeScript Starter and TanStack Query
 
-TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating server state in your web applications a breeze.
+This is a free starter template built with Nextjs, TailwindCSS, TypeScript & TanStack Query, providing everything you need to jumpstart your Next project and save valuable time.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Made with ♥ by Victory Ogbiyoyo
+
+If you find this project useful, please give it a ⭐ to show your support.
 
 ## Getting Started
 
-First, run the development server:
+👉 First, Install Dependencies
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the homepage.
 
 Open [http://localhost:3000/users](http://localhost:3000/users) with your browser to see list of users fetched using tanstack-query
 
