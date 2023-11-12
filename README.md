@@ -1,27 +1,18 @@
-# Nextjs + Tailwind CSS + TypeScript Starter and TanStack Query
-
-This is a free starter template built with Nextjs, TailwindCSS, TypeScript & TanStack Query, providing everything you need to jumpstart your Next project and save valuable time.
-
-Made with ♥ by Victory Ogbiyoyo
-
-If you find this project useful, please give it a ⭐ to show your support.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-👉 First, Install Dependencies
-```bash
-npm install
-```
-
-Then, run the development server:
+First, run the development server:
 
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the homepage.
-
-Open [http://localhost:3000/users](http://localhost:3000/users) with your browser to see list of users fetched using tanstack-query
+Open [http://localhost:3005](http://localhost:3005) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
